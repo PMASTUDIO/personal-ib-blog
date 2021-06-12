@@ -16,7 +16,7 @@ class Blog extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Todos los posts" />
         <Bio />
         <SearchPosts
           posts={posts}
@@ -25,7 +25,7 @@ class Blog extends React.Component {
           location={location}
         />
         <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
+          <Button marginTop="85px">Volver al Inicio</Button>
         </Link>
       </Layout>
     )
@@ -53,7 +53,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMMM DD, YYYY", locale: "es_ES")
             title
             description
           }

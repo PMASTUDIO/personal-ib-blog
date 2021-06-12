@@ -72,7 +72,8 @@ const SearchedPosts = ({ results }) =>
     })
   ) : (
     <p style={{ textAlign: "center" }}>
-      Sorry, couldn't find any posts matching this search.
+      Desculpa, no consegui encontrar el post que estás buscando.
+      {/* Funny image: <img></img> */}
     </p>
   )
 
@@ -126,7 +127,7 @@ const SearchPosts = ({ posts, localSearchBlog, location, navigate }) => {
         <input
           id="search"
           type="search"
-          placeholder="Search all posts"
+          placeholder="Busque en todo el sitio"
           value={query}
           onChange={e => {
             navigate(

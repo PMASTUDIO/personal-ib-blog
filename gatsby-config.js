@@ -1,12 +1,11 @@
 module.exports = {
   siteMetadata: {
-    // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `PGanme - Música y Tecnologia`,
+    author: `Pedro Ganme`,
+    description: `Un blog en español sobre apreciación y opiniones de músicas y las últimas notícias de tecnologia y ciências y que significan.`,
+    siteUrl: `https://personal-ib-cms.netlify.app/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: ``,
     },
   },
   plugins: [
